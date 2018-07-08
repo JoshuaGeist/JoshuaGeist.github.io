@@ -58,7 +58,7 @@ margin: auto;
 
 .Box-1
 {
-background-image:url('https://cdn.pixabay.com/photo/2016/04/04/14/12/monitor-1307227_960_720.jpg');
+background-image:url(Monitor.jpg);
 	background-position:center right;
 	height:300px;
 	margin-bottom:30px;
@@ -108,7 +108,7 @@ background-image:url('https://cdn.pixabay.com/photo/2016/04/04/14/12/monitor-130
 {
 	float: left;
 	width: 68%;
-	background-image: url('https://cdn.pixabay.com/photo/2018/03/10/09/45/businessman-3213659_960_720.jpg');
+	background-image: url(iets.jpg);
 	height: 350px;
 	margin-top: 20px;
 	color: white;
@@ -129,7 +129,7 @@ background-image:url('https://cdn.pixabay.com/photo/2016/04/04/14/12/monitor-130
 {
 	float: right;
 	width: 30%;
-	background-image: url('https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406_960_720.jpg');
+	background-image: url(code.jpg);
 	height: 350px;
 	margin-top: 20px;
 }
