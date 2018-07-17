@@ -1,0 +1,51 @@
+body {
+    font-size: 30px;
+    font-family: "Roboto", sans-serif;
+    padding: 0px;
+    margin: 0px;
+    color: white;
+}
+
+.grid {
+    display: grid;
+    grid-template-rows: 100px, 75px, 100px;
+    grid-row-gap: 20px;
+}
+
+.grid div{
+    background-color: #536878;
+}
+
+
+#nav
+{
+	color:#fff;
+    height: 300px;
+    border-color: #333;
+    border-width: 5px;
+    font-size: 16px;
+    text-align: center;
+    background-image: url(images/technology-785742_1920.jpg);
+    background-size: cover;
+}
+
+#nav ul
+{
+    list-style: none;
+    padding: 0px;
+    float: left;
+    padding-top: 20px;
+}
+
+#nav li
+{
+    display:inline;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#nav h3{
+    text-align: left;
+    font-size: 40px;
+    padding-left: 50px;
+}
