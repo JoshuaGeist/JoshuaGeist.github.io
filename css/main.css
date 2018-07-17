@@ -7,7 +7,7 @@ body {
 }
 
 html{
-    background-color: #12141f;
+    background-color: #595a62;
 }
 
 .grid{
@@ -45,6 +45,20 @@ html{
     display:inline;
     padding-left: 50px;
     padding-right: 50px;
+}
+
+#nav a
+{
+    padding: 3px;
+    text-decoration: none;
+    color: #000;
+    background: rgba(255, 255, 255, 0.281);
+    border-radius: 5%;
+}
+
+#nav a:hover
+{
+    background: rgba(255, 255, 255, 0.5);
 }
 
 #nav h3{
