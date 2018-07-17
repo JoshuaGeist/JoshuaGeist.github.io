@@ -6,16 +6,19 @@ body {
     color: white;
 }
 
-.grid {
+html{
+    background-color: #12141f;
+}
+
+.grid{
     display: grid;
-    grid-template-rows: 100px, 75px, 100px;
+    grid-template-rows: 100px, 100px, 100px;
     grid-row-gap: 20px;
 }
 
 .grid div{
-    background-color: #536878;
+    background-color: 	#12141f;
 }
-
 
 #nav
 {
@@ -48,4 +51,8 @@ body {
     text-align: left;
     font-size: 40px;
     padding-left: 50px;
+}
+
+#products-collabs{
+    background-color: #12141f;
 }
