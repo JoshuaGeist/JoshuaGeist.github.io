@@ -141,6 +141,20 @@ html{
     right: 25%;
 }
 
+#collab-products-button-link
+{
+    text-decoration: none;
+    color: rgb(158, 158, 158);
+    font-family: Anton;
+    letter-spacing: 1px;
+    text-shadow: 5px 5px black;
+}
+
+#collab-products-button-link:hover
+{
+    color: rgb(255, 255, 255);
+}
+
 
 /*COMMENTS*/
 /*
