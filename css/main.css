@@ -10,25 +10,27 @@ html{
     background-color:#000014;
 }
 
-.grid{
-    display: grid;
-    grid-template-rows: 100px, 100px, 100px;
-}
 
 .grid div{
     background-color: 	#12141f;
 }
 
 #nav
-{
-	color:#fff;
+{   
     height: 675px;
+    background-image: url(../images/keyboard.jpg);
+    background-size: cover;
+	color:#fff;
     border-color: #333;
     border-width: 5px;
     font-size: 16px;
     text-align: center;
-    background-image: url(../images/technology-785742_1920.jpg);
-    background-size: cover;
+    opacity: 0.8;
+}
+
+#nav:hover
+{
+    opacity: 1;
 }
 
 #nav ul
@@ -46,17 +48,15 @@ html{
     padding-right: 50px;
 }
 
-#nav a
+#navlinks
 {
     padding: 3px;
     text-decoration: none;
     color: #000;
-    
-    border-radius: 5%;
     background: rgba(255, 255, 255, 0.068);
 }
 
-#nav a:hover
+#navlinks:hover
 {
     background: rgba(255, 255, 255, 0.5);
 }
@@ -67,20 +67,47 @@ html{
     padding-left: 50px;
 }
 
+#nav button {
+
+    float: left;
+    margin-left: 22%;
+    margin-top: 50px;
+
+}
+
 #collabs{
     height: 675px;
     background-image: url(../images/buisness.png);
     background-size: cover;
-    text-align: right;
     padding-top: 175px;
-    padding-right: 100px;
-    width: 600px;
+    /*padding-right: 100px;*/
+    width: 675px;
     background-position-x: -300px;
     text-align: center;
     float: left;
+    opacity: 0.8;
 }
 
+#collabs:hover{
+    opacity: 1;
+}
 
+#products{
+    height: 675px;
+    background-image: url(../images/startup.jpg);
+    background-size: cover;
+    padding-top: 175px;
+    /*padding-right: 100px;*/
+    width: 675px;
+    /*background-position-x: -300px;*/
+    text-align: center;
+    float: right; /*up!*/
+    opacity: 0.8;
+}
+
+#products:hover{
+    opacity: 1;
+}
 #title
 {
    font-family: "Roboto", sans-serif; 
@@ -92,6 +119,28 @@ html{
     background-color: #000014;
     text-align: center;
 }
+
+#forum-button
+{
+    text-decoration: none;
+    color: #FFF;
+    
+    padding: 15px;
+    border: none;
+    background: rgb(1, 8, 71);
+    box-shadow: 2px 2px black;
+}
+
+#forum-button-link
+{
+    font-size: 24px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-family: Quicksand;
+    right: 25%;
+}
+
 
 /*COMMENTS*/
 /*

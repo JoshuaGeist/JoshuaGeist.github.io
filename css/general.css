@@ -46,16 +46,15 @@ html{
     padding-right: 50px;
 }
 
-#nav a
+#navlinks
 {
     padding: 3px;
     text-decoration: none;
     color: #000;
     background: rgba(255, 255, 255, 0.281);
-    border-radius: 5%;
 }
 
-#nav a:hover
+#navlinks:hover
 {
     background: rgba(255, 255, 255, 0.5);
 }
