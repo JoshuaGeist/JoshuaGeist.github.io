@@ -69,4 +69,12 @@ html{
 
 #products-collabs{
     background-color: #12141f;
+    text-align: center;
+}
+
+}
+
+#footer {
+    font-size: 35px;
+    font-family: Markazi;
 }
